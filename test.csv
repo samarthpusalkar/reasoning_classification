@@ -1,0 +1,51 @@
+,text_segment,reasoning_category,self_questioning_category,not_category,reasoning_score,self_questioning_score
+0,"The experimental data shows a clear trend, but I wonder if we controlled for all confounding variables. Maybe the temperature fluctuations affected the results?",1,1,0,2,2
+1,I feel awful about that argument. Was I being too stubborn? I know I have a tendency to dig in my heels. I need to work on being more open-minded.,0,1,1,0,3
+2,This sunset is absolutely breathtaking.,0,0,1,0,0
+3,"As a philosopher, I question the very nature of existence, but I'm aware that my own experiences color my interpretations. And what *is* experience, anyway?",1,1,1,2,3
+4,"PERSON A: All politicians are corrupt. PERSON B: That's a sweeping generalization. While some politicians may be corrupt, there are also many who are dedicated to public service.",1,0,0,3,0
+5,"I'm a doctor, and I'm trained to be objective, but I know my own emotional state can sometimes affect my judgment. I need to be mindful of that.",1,0,1,1,1
+6,"The cat stretched languidly in the sunbeam, its fur gleaming like polished gold.",0,0,1,0,0
+7,I'm trying to understand quantum entanglement. It seems so counterintuitive. How can two particles be linked across vast distances?,1,1,0,3,2
+8,I should have apologized sooner. Was I being too proud? I know I can be difficult sometimes.,0,1,1,0,2
+9,"The old, abandoned house stood on the hill, silhouetted against the stormy sky.",0,0,1,0,0
+10,"As a scientist, I strive for empirical evidence, but I'm aware of the limitations of the scientific method itself. How can we ever be *certain* of anything?",1,1,1,2,2
+11,PERSON A: This new technology will solve all our problems! PERSON B: I'm skeptical. New technologies often have unintended consequences.,1,1,0,2,1
+12,"I'm a writer, and I try to be insightful, but I know my own biases creep into my work. I need to constantly challenge my own assumptions.",1,0,1,1,1
+13,"The rain fell in sheets, drumming on the roof and blurring the lights of the city.",0,0,1,0,0
+14,The algorithm is consistently misclassifying this type of data. Is there a bias in the training set? Or is the algorithm itself flawed?,1,1,0,3,2
+15,I said some things I regret. Was I speaking out of anger? I know I have a quick temper. I need to learn to control my emotions.,0,1,1,0,3
+16,That painting is incredibly vibrant and full of life.,0,0,1,0,0
+17,"I'm grappling with the concept of moral responsibility in a deterministic universe. If our actions are predetermined, how can we be held accountable?",1,1,0,3,3
+18,PERSON A: This food is disgusting! PERSON B: That's just your opinion. I think it's delicious.,0,0,0,0,0
+19,"I'm a historian, and I aim for objectivity, but I'm aware that my own cultural background shapes my perspective. It's impossible to be completely neutral.",1,0,1,1,1
+20,"The intricate clockwork mechanism whirred and clicked, keeping perfect time.",0,0,1,0,0
+21,I'm trying to understand the motivations of the character in this novel. Are they acting rationally? Or are they driven by subconscious desires?,1,1,0,3,2
+22,I should have listened to my intuition. Was I ignoring my gut feeling? I know I tend to overthink things.,0,1,1,0,2
+23,"The wind howled through the trees, creating an eerie and unsettling sound.",0,0,1,0,0
+24,"As a psychologist, I'm trained to analyze behavior, but I'm also aware of the limits of my understanding. The human mind is incredibly complex.",1,0,1,1,1
+25,PERSON A: We should always follow the rules. PERSON B: But what if the rules are unjust? Sometimes civil disobedience is necessary.,1,1,0,3,2
+26,"I am a teacher, and I'm dedicated to my students, but I recognize that I may not always be the best judge of their potential, there could be external factors in play also.",1,0,1,1,0
+27,"The colorful leaves swirled in the autumn breeze, creating a beautiful mosaic on the ground.",0,0,1,0,0
+28,"The detective carefully examined the crime scene, looking for any clues that might help solve the case, methodically and step-by-step.",1,0,0,3,0
+29,I'm wondering if I made the right decision. Should I have taken the other job offer?,0,1,0,0,3
+30,The fluffy white clouds drifted lazily across the bright blue sky.,0,0,1,0,0
+31,"I'm a programmer, and I tend to see the world in terms of algorithms, but I know that's a limited perspective. Not everything can be reduced to code, especially human relationship.",1,0,1,1,1
+32,PERSON A: My team is the best! PERSON B: Every team has its strengths and weaknesses.,0,0,0,0,0
+33,I am so tired of all this drama.,0,0,1,0,0
+34,"The artist skillfully blended the colors on the canvas, creating a stunning visual effect.",0,0,1,0,0
+35,I'm trying to understand the implications of this new policy. Will it actually achieve its intended goals? Or will there be unintended consequences?,1,1,0,3,2
+36,I feel really anxious about the future. Am I worrying too much? I know I have a tendency to catastrophize.,0,1,1,0,2
+37,The aroma of freshly brewed coffee filled the air.,0,0,1,0,0
+38,"The children laughed and played in the park, their joyful shouts echoing through the trees.",0,0,1,0,0
+39,I'm struggling with this ethical dilemma. What is the right thing to do?,0,1,0,0,3
+40,"My car broke down on the highway, it is so frustrating.",0,0,1,0,0
+41,"I'm constantly striving to improve myself, but I'm aware that I'll never be perfect. It's a journey, not a destination.",1,0,1,1,1
+42,"The stock market crashed, wiping out billions of dollars in value.",0,0,1,0,0
+43,"The surgeon carefully made the incision, her hands steady and precise, she did it very quickly.",1,0,0,3,0
+44,I am starting to get better at playing chess. The countless hours I dedicated practicing are paying off.,1,0,0,2,0
+45,"The city skyline at night was a breathtaking sight, with countless lights twinkling like stars.",0,0,1,0,0
+46,I often wonder about the meaning of life. Is there a purpose to all of this?,0,1,0,0,3
+47,"The old dog slept soundly by the fireplace, dreaming of chasing squirrels.",0,0,1,0,0
+48,I'm concerned for my family's well-being but I am aware I might be acting irrationally.,0,1,1,0,2
+49,The ancient ruins told a story of a long-lost civilization.,0,0,1,0,0

@@ -1,0 +1,52 @@
+,text_segment,reasoning_category,self_questioning_category,not_category,reasoning_score,self_questioning_score
+0,"The new drug showed promising results in the initial trials, but further research is needed to determine its long-term effects. Are there any potential side effects we haven't identified yet?",1,1,0,3,2
+1,I feel like I'm not being heard in meetings. Am I communicating effectively? I know I can be a bit shy. Maybe I need to speak up more assertively.,0,1,1,0,3
+2,"The stars are incredibly beautiful tonight, spread across the vast expanse of the night sky.",0,0,1,0,0
+3,"As a historian, I interpret past events through the lens of available evidence, but I acknowledge that my own biases and the limitations of historical records can influence my conclusions. How can we ever truly know the past?",1,1,1,2,3
+4,"PERSON A: Everyone should go to college. PERSON B: While college can be beneficial, it's not the right path for everyone. There are many successful people who didn't go to college.",1,0,0,3,0
+5,"I'm a chef, and I strive for culinary perfection, but I realize that taste is subjective. What I find delicious, others might not. I need to be open to feedback.",1,0,1,1,1
+6,"The gentle breeze rustled the leaves of the tall oak tree, creating a soothing sound.",0,0,1,0,0
+7,"I'm trying to learn a new language. It's challenging, but also rewarding. How can I improve my pronunciation?",1,1,0,3,2
+8,I should have been more patient with my child. Was I being too demanding? I know I can be short-tempered sometimes.,0,1,1,0,2
+9,The old wooden bridge creaked ominously as we walked across it.,0,0,1,0,0
+10,"As an economist, I analyze market trends, but I'm aware that economic models are simplifications of reality. There are always unforeseen factors that can disrupt predictions. Can we ever truly predict the future?",1,1,1,2,2
+11,PERSON A: This new law is a great step forward! PERSON B: I'm not so sure. It might have unintended consequences for small businesses.,1,1,0,2,1
+12,"I'm an artist, and I try to express my emotions through my work, but I know that my art may not resonate with everyone. Art is subjective.",1,0,1,1,1
+13,"The heavy rain lashed against the windows, making it difficult to see outside.",0,0,1,0,0
+14,"The machine learning model is predicting outcomes with high accuracy, but I'm concerned about its potential for bias. Is the training data representative of the population?",1,1,0,3,2
+15,I lost my temper during the negotiation. Was I being unprofessional? I know I need to work on controlling my emotions in high-pressure situations.,0,1,1,0,3
+16,"The sunset painted the sky with vibrant hues of orange, pink, and purple.",0,0,1,0,0
+17,I'm struggling to grasp the concept of dark energy. How can something we can't see or directly detect make up the majority of the universe?,1,1,0,3,3
+18,PERSON A: That movie was amazing! PERSON B: I thought it was pretty mediocre.,0,0,0,0,0
+19,"I'm a journalist, and I aim to report the truth, but I'm aware that my own perspective can influence my storytelling. I need to be mindful of my biases.",1,0,1,1,1
+20,The intricate pattern of the Persian rug was a testament to the weaver's skill.,0,0,1,0,0
+21,I'm trying to understand the motivations behind this political movement. Are they driven by genuine grievances? Or are they being manipulated by outside forces?,1,1,0,3,2
+22,I should have been more supportive of my friend. Was I being insensitive? I know I can be too focused on my own problems.,0,1,1,0,2
+23,The strong wind whipped through my hair as I stood on the cliff overlooking the ocean.,0,0,1,0,0
+24,"As a teacher, I try to inspire my students, but I'm aware that I can't reach everyone. Each student learns differently.",1,0,1,1,1
+25,PERSON A: We should always prioritize economic growth. PERSON B: But what about the environmental consequences? We need to consider sustainability.,1,1,0,3,2
+26,"I'm a software engineer, and I love solving complex problems, but I recognize that technology isn't a solution for everything. Human connection is important, too.",1,0,1,1,1
+27,The freshly cut grass smelled sweet and earthy after the rain.,0,0,1,0,0
+28,"The detective meticulously examined the evidence, piecing together the clues like a puzzle. He looked at every single detail with extreme caution.",1,0,0,3,0
+29,I'm wondering if I'm on the right career path. Should I consider a different field?,0,1,0,0,3
+30,The fluffy white clouds looked like cotton candy floating in the bright blue sky.,0,0,1,0,0
+31,"I'm a musician, and I strive for originality, but I know that all art is influenced by what came before. There's no such thing as creating in a vacuum.",1,0,1,1,1
+32,"PERSON A: My opinion is the only one that matters. PERSON B: Everyone is entitled to their own opinion, and it's important to respect different perspectives.",0,0,0,0,0
+33,I'm so stressed out about this deadline.,0,0,1,0,0
+34,The vibrant colors of the coral reef were a feast for the eyes.,0,0,1,0,0
+35,I'm trying to figure out the best way to approach this problem. Should I try a direct approach? Or should I be more subtle?,1,1,0,3,2
+36,I feel really guilty about eating that last piece of cake. Was I being greedy? I know I need to work on my self-control.,0,1,1,0,2
+37,The sound of the waves crashing against the shore was both calming and invigorating.,0,0,1,0,0
+38,"The children played hide-and-seek in the garden, their laughter echoing through the air.",0,0,1,0,0
+39,I'm struggling to make a difficult decision. What are the potential consequences of each choice?,0,1,0,0,3
+40,My phone battery is almost dead. I should really go and charge it before it dies completly.,0,0,1,0,0
+41,"I'm constantly learning and growing, but I'm aware that I have blind spots. I need to seek out diverse perspectives.",1,0,1,1,1
+42,"The earthquake caused widespread devastation, leaving many people homeless.",0,0,1,0,0
+43,"The doctor listened attentively to the patient's concerns, taking notes and asking clarifying questions with a calm voice.",1,0,0,3,0
+44,"After a thorough evaluation, the structural engineer concluded that the building was unsafe for occupancy due to significant foundational cracks and instability in the supporting walls.",1,0,0,3,0
+45,"The moon cast a silvery glow on the still lake, creating a serene and peaceful atmosphere.",0,0,1,0,0
+46,I often ponder the vastness of the universe. Are we alone?,0,1,0,0,3
+47,The old cat purred contentedly as it curled up on its owner's lap.,0,0,1,0,0
+48,"I am a perfectionist, and this trait might be impacting my work-life balance.",0,0,1,0,0
+49,The ancient city walls stood as a reminder of a bygone era.,0,0,1,0,0
+50,"The financial analyst carefully reviewed the company's quarterly report, searching for trends and patterns that could indicate future performance, meticulously examining each figure.",1,0,0,3,0
