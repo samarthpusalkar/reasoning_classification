@@ -16,9 +16,9 @@ from variables import TOKENIZED_DATASET_PATH, TRAIN_DATASET_PATH
 from transformers import PreTrainedTokenizerFast
 # Set CUDA device and optimization flags
 # os.environ["CUDA_VISIBLE_DEVICES"] = "0"  # Specify GPU device
-# torch.backends.cudnn.benchmark = True  # Enable cudnn auto-tuner
-# torch.backends.cuda.matmul.allow_tf32 = True  # Allow TF32 on Ampere
-# torch.backends.cudnn.allow_tf32 = True  # Allow TF32 on Ampere
+torch.backends.cudnn.benchmark = True  # Enable cudnn auto-tuner
+torch.backends.cuda.matmul.allow_tf32 = True  # Allow TF32 on Ampere
+torch.backends.cudnn.allow_tf32 = True  # Allow TF32 on Ampere
 
 # Check CUDA availability and set device
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -119,16 +119,17 @@ except Exception as e:
     )
     encoded_dataset.save_to_disk(TOKENIZED_DATASET_PATH)
 tran_eval = encoded_dataset['test'].train_test_split(test_size=0.1, shuffle=True, stratify_by_column='label')
+
 run = wandb.init(
-    project="ReasoningClassification",
-    name="experiment-2025-2-15",
+    project="ReasoningClassificationFull",
+    name="experiment-2025-2-16_",
 )
 config = {
 "model_architecture": 'ModernBert-Base',
 "learning_rate": 3e-5,
-"per_device_train_batch_size": 512,
+"per_device_train_batch_size": 704,
 "per_device_eval_batch_size": 512,
-"num_train_epochs": 1,
+"num_train_epochs": 2,
 "gradient_accumulation_steps":4,
 "dataloader_num_workers":4,
 "weight_decay": 0.001,
@@ -139,7 +140,9 @@ config = {
 "save_strategy": "steps",
 "save_steps": 200,
 "load_best_model_at_end": True,
-"metric_for_best_model": "eval_loss"
+"metric_for_best_model": "eval_loss",
+"gradient_checkpointing": True,
+"fp16": True
 }
 with wandb.init(config=config) as run:
     run.config.update(config)
@@ -151,8 +154,8 @@ training_args = TrainingArguments(
     num_train_epochs=config['num_train_epochs'],
     gradient_accumulation_steps=config['gradient_accumulation_steps'],
     # max_grad_norm = 1.0,  # Add
-    # gradient_checkpointing=True,
-    # fp16=True,                       # Enable mixed precision training
+    gradient_checkpointing=config['"gradient_checkpointing"'],
+    fp16=config['fp16'],                       # Enable mixed precision training
     # fp16_opt_level="O2",            # Aggressive mixed precision
     dataloader_num_workers=config['dataloader_num_workers'],        # Parallel data loading
     dataloader_pin_memory=True,      # Pin memory for faster data transfer to GPU
@@ -166,7 +169,8 @@ training_args = TrainingArguments(
     save_steps=config['save_steps'],
     load_best_model_at_end=config['load_best_model_at_end'],
     metric_for_best_model=config["metric_for_best_model"],
-    report_to = ["wandb"]
+    report_to = "wandb",
+    run_name="experiment-2025-2-16_"
 )
 
 # Initialize trainer with optimized settings
